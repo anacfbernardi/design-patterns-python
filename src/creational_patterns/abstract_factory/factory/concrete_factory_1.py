@@ -1,6 +1,7 @@
 from src.creational_patterns.abstract_factory.factory.abstract_factory import AbstractFactory
 from src.creational_patterns.abstract_factory.product import ConcreteProductA1, ConcreteProductB1
 
+
 class ConcreteFactory1(AbstractFactory):
     """
     Implement the operations to create concrete product objects.
