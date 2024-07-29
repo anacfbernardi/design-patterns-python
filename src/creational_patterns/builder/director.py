@@ -8,6 +8,6 @@ class Director:
 
     def construct(self, builder):
         self._builder = builder
-        self._builder._build_part_a()
-        self._builder._build_part_b()
-        self._builder._build_part_c()
+        self._builder.produce_part_a()
+        self._builder.produce_part_b()
+        self._builder.produce_part_c()

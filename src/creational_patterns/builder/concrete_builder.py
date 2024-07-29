@@ -9,11 +9,11 @@ class ConcreteBuilder(Builder):
     Provide an interface for retrieving the product.
     """
 
-    def _build_part_a(self):
-        self.product.build_part_a()
+    def produce_part_a(self) -> None:
+        self.product.add("PartA1")
 
-    def _build_part_b(self):
-        self.product.build_part_b()
+    def produce_part_b(self) -> None:
+        self.product.add("PartB1")
 
-    def _build_part_c(self):
-        self.product.build_part_c()
+    def produce_part_c(self) -> None:
+        self.product.add("PartC1")

@@ -1,9 +1,9 @@
-import abc
+from abc import ABC, abstractmethod
 
 from src.creational_patterns.builder.product import Product
 
 
-class Builder(metaclass=abc.ABCMeta):
+class Builder(ABC):
     """
     Specify an abstract interface for creating parts of a Product
     object.
@@ -12,14 +12,14 @@ class Builder(metaclass=abc.ABCMeta):
     def __init__(self):
         self.product = Product()
 
-    @abc.abstractmethod
-    def _build_part_a(self):
+    @abstractmethod
+    def produce_part_a(self) -> None:
         pass
 
-    @abc.abstractmethod
-    def _build_part_b(self):
+    @abstractmethod
+    def produce_part_b(self) -> None:
         pass
 
-    @abc.abstractmethod
-    def _build_part_c(self):
+    @abstractmethod
+    def produce_part_c(self) -> None:
         pass

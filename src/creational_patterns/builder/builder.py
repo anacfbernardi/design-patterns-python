@@ -6,3 +6,4 @@ def builder_pattern():
     director = Director()
     director.construct(concrete_builder)
     product = concrete_builder.product
+    product.list_parts()
