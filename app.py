@@ -1,8 +1,7 @@
-from src.sample_code import print_message, print_message_from_env
+from src.creational_patterns.abstract_factory.abstract_factory import factory_method
 
 def main():
-    print_message("test")
-    print_message_from_env()
+    factory_method()
 
 
 if __name__ == "__main__":
