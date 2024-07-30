@@ -1,5 +1,6 @@
 from src.creational_patterns.singleton.my_class import MyClass
 
+
 def singleton():
     m1 = MyClass()
     m2 = MyClass()
