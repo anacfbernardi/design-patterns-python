@@ -1,2 +1,3 @@
 from src.structural_patterns.adapter.adapter_method import adapter_method
 from src.structural_patterns.bridge.bridge import bridge_method
+from src.structural_patterns.composite.composite_method import composite_method
