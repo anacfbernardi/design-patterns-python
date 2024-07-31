@@ -1,5 +1,5 @@
 from src.creational_patterns import abstract_factory, builder_pattern, factory_method, prototype, singleton
-from src.structural_patterns import adapter_method, bridge_method, composite_method, decorator_method
+from src.structural_patterns import adapter_method, bridge_method, composite_method, decorator_method, facade_method
 
 
 def creational_patterns():
@@ -15,6 +15,7 @@ def structural_patterns():
     bridge_method()
     composite_method()
     decorator_method()
+    facade_method()
 
 
 def main():
