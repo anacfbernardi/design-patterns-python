@@ -1,6 +1,5 @@
 from src.creational_patterns import abstract_factory, builder_pattern, factory_method, prototype, singleton
-
-from src.structural_patterns.adapter.adapter_method import adapter_method
+from src.structural_patterns import adapter_method, bridge_method
 
 
 def creational_patterns():
@@ -10,14 +9,18 @@ def creational_patterns():
     singleton()
     prototype()
 
+
 def structural_patterns():
     adapter_method()
+    bridge_method()
+
 
 def main():
     print("======creational_patterns======")
     creational_patterns()
     print("======structural_patterns======")
     structural_patterns()
+
 
 if __name__ == "__main__":
     main()
