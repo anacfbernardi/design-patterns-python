@@ -6,6 +6,7 @@ from src.structural_patterns import (
     decorator_method,
     facade_method,
     flyweight_method,
+    proxy_method,
 )
 
 
@@ -24,6 +25,7 @@ def structural_patterns():
     decorator_method()
     facade_method()
     flyweight_method()
+    proxy_method()
 
 
 def main():
